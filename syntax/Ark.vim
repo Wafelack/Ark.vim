@@ -31,8 +31,12 @@ syntax keyword arkKeyword import quote del
 	" Time
 	syntax keyword arkFunction timeSinceEpoch
 
+" Comments
+syntax match arkComment "\v#.*$" " Matching comments with a regex
+
 " Highlighting
 highlight link arkKeyword Keyword
 highlight link arkFunction Function
+highlight link arkComment Comment
 
 let b:current_syntax = "ark"
