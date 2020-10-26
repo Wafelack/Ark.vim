@@ -25,6 +25,9 @@ syntax keyword arkKeyword import quote del
 	" String
 	syntax keyword arkFunction format findSubStr removeAtStr
 
+	" System
+	syntax keyword arkFunction system_ sleep
+
 " Highlighting
 highlight link arkKeyword Keyword
 highlight link arkFunction Function
