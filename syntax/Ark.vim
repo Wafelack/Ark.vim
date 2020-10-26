@@ -28,6 +28,9 @@ syntax keyword arkKeyword import quote del
 	" System
 	syntax keyword arkFunction system_ sleep
 
+	" Time
+	syntax keyword arkFunction timeSinceEpoch
+
 " Highlighting
 highlight link arkKeyword Keyword
 highlight link arkFunction Function
