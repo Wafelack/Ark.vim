@@ -6,7 +6,7 @@
 					  | |  /_/   \_\_|  |_|\_\|____/ \___|_|  |_| .__/ \__|  | | ~
 					   \_\                                    |_|           /_/ ~
 
-						Functionnality for ArkScript programming language
+						Functionality for ArkScript programming language
 						 Syntax highlighting and file running inside Vim.
 
 =======================================================================
@@ -30,7 +30,9 @@ It also provides a file running functionnality.
 =======================================================================
 Section 2: Mappings										  *ArkMappings*
 
-<localleader>r : Run the file you have loaded in buffer
+You can define the mapping used to compile and run the file in the current
+buffer with the global variable "g:ark_run_map". The default value is
+"<localleader>r".
 
 =======================================================================
 Section 3: License										   *ArkLicense*
@@ -52,6 +54,9 @@ Make a pull request on the repository.
 
 =======================================================================
 Section 6:	Changelog                                     *ArkChangelog* 
+
+0.1.1 : Allow users to change the mapping to run the file in the current
+buffer
 
 0.1.0 : Syntax highlighting for builtin functions, operators, strings,
 comments and keywords

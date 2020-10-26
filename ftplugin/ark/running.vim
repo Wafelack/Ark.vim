@@ -2,9 +2,13 @@ if !exists("g:ark_command")
 	let g:ark_command = "ark"
 endif
 
-function! ArkCompileAndRunFile()
+if !exists("g:ark_run_map")
+	let g:ark_run_map = "<localleader>r"
+endif
+
+function! ArkCompileAndRunFile() abort
 	silent !clear
-	execute "!" . g:ark_command . " " . bufname("%")
+	execute "!" . g:ark_command . " " . expand("%")
 endfunction
 
-nnoremap <buffer> <localleader>r :call ArkCompileAndRunFile()<cr>
+exec "nnoremap <buffer> " . g:ark_run_map . " :call ArkCompileAndRunFile()<cr>"
