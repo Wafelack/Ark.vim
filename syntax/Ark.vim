@@ -35,15 +35,19 @@ syntax keyword arkKeyword import quote del
 syntax match arkComment "\v#.*$" " Matching comments with a regex
 
 " Operators
-syntax match arkOperator "\v\*"
-syntax match arkOperator "\v/"
-syntax match arkOperator "\v\+"
-syntax match arkOperator "\v-"
-syntax match arkOperator "\v\?"
-syntax match arkOperator "\v\*\="
-syntax match arkOperator "\v/\="
-syntax match arkOperator "\v\+\="
-syntax match arkOperator "\v-\="
+syntax match arkOperator "\v\=" " =
+syntax match arkOperator "\v\*" " *
+syntax match arkOperator "\v/" " /
+syntax match arkOperator "\v\+" " +
+syntax match arkOperator "\v-" " -
+syntax match arkOperator "\v\@" " @
+syntax match arkOperator "\v\<" " <
+syntax match arkOperator "\v\>" " >
+syntax match arkOperator "\v\<\=" " <=
+syntax match arkOperator "\v\>\=" " >=
+syntax match arkOperator "\v\^" " ^
+syntax match arkOperator "\v!\=" " !=
+
 
 " Highlighting
 highlight link arkKeyword Keyword
