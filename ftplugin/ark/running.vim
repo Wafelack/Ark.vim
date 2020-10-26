@@ -2,7 +2,7 @@ if !exists("g:ark_command")
 	let g:ark_command = "ark"
 endif
 
-if !exists("g:ark_compile_and_run")
+if !exists("g:ark_run_map")
 	let g:ark_run_map = "<localleader>r"
 endif
 
