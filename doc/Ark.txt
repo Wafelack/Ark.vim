@@ -30,7 +30,7 @@ It also provides a file running functionnality.
 =======================================================================
 Section 2: Mappings										  *ArkMappings*
 
-You can define the key used to compile and run the file in the current
+You can define the mapping used to compile and run the file in the current
 buffer with the global variable "g:ark_run_map". The default value is
 "<localleader>r".
 
