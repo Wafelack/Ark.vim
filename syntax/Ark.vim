@@ -10,8 +10,8 @@ syntax keyword arkKeyword import quote del
 " Buildtins
 	" IO
 	syntax keyword arkFunction print puts input
-	syntax keyword arkFunction io::writeFile io::readFile
-	syntax keyword arkFunction io::fileExists? io::listFiles io::isDirectory io::makeDir io::removeFiles io::dir?
+	syntax keyword arkFunction io:writeFile io:readFile
+	syntax keyword arkFunction io:fileExists? io:listFiles io:isDirectory io:makeDir io:removeFiles io:dir?
 
 	" List
 	syntax keyword arkFunction list:reverse list:find list:removeAt list:slice
