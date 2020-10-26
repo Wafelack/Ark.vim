@@ -53,6 +53,8 @@ syntax match arkNumber "[0-9]" " From 0 to 9
 
 " Strings
 syntax region arkString start=/\v"/ skip=/\v\\./ end=/\v"/
+syntax region arkString start=/\v'/ skip=/\v\\./ end=/\v'/
+
 
 " Highlighting
 highlight link arkNumber Number
