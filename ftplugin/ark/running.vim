@@ -4,7 +4,7 @@ endif
 
 function! ArkCompileAndRunFile()
 	silent !clear
-	execute "!" . g:ark_command . " " . bufname("%")
+	execute "!" . g:ark_command . " " . expand("%")
 endfunction
 
 nnoremap <buffer> <localleader>r :call ArkCompileAndRunFile()<cr>
