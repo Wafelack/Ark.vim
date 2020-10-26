@@ -48,8 +48,11 @@ syntax match arkOperator "\v\>\=" " >=
 syntax match arkOperator "\v\^" " ^
 syntax match arkOperator "\v!\=" " !=
 
+" Numbers
+syntax match arkNumber "[0-9]" " From 0 to 9
 
 " Highlighting
+highlight link arkNumber Number
 highlight link arkKeyword Keyword
 highlight link arkFunction Function
 highlight link arkComment Comment
