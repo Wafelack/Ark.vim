@@ -51,11 +51,15 @@ syntax match arkOperator "\v!\=" " !=
 " Numbers
 syntax match arkNumber "[0-9]" " From 0 to 9
 
+" Strings
+syntax region arkString start=/\v"/ skip=/\v\\./ end=/\v"/
+
 " Highlighting
 highlight link arkNumber Number
 highlight link arkKeyword Keyword
 highlight link arkFunction Function
 highlight link arkComment Comment
 highlight link arkOperator Operator
+highlight link arkString String
 
 let b:current_syntax = "ark"
