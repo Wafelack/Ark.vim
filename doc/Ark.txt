@@ -1,0 +1,62 @@
+*Ark.txt* functionnality for ArkScript programming language
+					    _      _         _     ____            _       _     _  ~
+					   / /    / \   _ __| | __/ ___|  ___ _ __(_)_ __ | |_  \ \ ~
+					  | |    / _ \ | '__| |/ /\___ \ / __| '__| | '_ \| __|  | | ~
+					  | |   / ___ \| |  |   <  ___) | (__| |  | | |_) | |_   | | ~
+					  | |  /_/   \_\_|  |_|\_\|____/ \___|_|  |_| .__/ \__|  | | ~
+					   \_\                                    |_|           /_/ ~
+
+						Functionnality for ArkScript programming language
+						 Syntax highlighting and file running inside Vim.
+
+=======================================================================
+CONTENTS												  *ArkContents*
+	
+	1. Usage .................... |ArkUsage|
+	2. Mappings ................. |ArkMappings|
+	3. License .................. |ArkLicense|
+	4. Bugs ..................... |ArkBugs|
+	5. Contributing ............. |ArkContributing|
+	6. Changelog ................ |ArkChangelog|
+	7. Credits .................. |ArkCredits|
+=======================================================================
+Section 1: Usage											 *ArkUsage*
+
+This plugin provides automatic syntax highlighting for ArkScript files (files
+ending with .ark).
+
+It also provides a file running functionnality.
+
+=======================================================================
+Section 2: Mappings										  *ArkMappings*
+
+<localleader>r : Run the file you have loaded in buffer
+
+=======================================================================
+Section 3: License										   *ArkLicense*
+
+This plugin is licensed under the MPL-2.0 (Mozilla Public License).
+
+=======================================================================
+Section 4: Bugs												  *ArkBugs*
+
+No bugs currently.
+
+=======================================================================
+Section 5: Contributing								  *ArkContributing*
+
+Fork the repository (https://github.com/Wafelack/Ark.vim).
+Clone it on your computer.
+Add your features / fix the bugs you want to fix.
+Make a pull request on the repository.
+
+=======================================================================
+Section 6:	Changelog                                     *ArkChangelog* 
+
+0.1.0 : Syntax highlighting for builtin functions, operators, strings,
+comments and keywords
+
+=======================================================================
+Section 7: Credits										   *ArkCredits*
+
+Author : Wafelack <wafelack@protonmail.com>
