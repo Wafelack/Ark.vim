@@ -34,9 +34,21 @@ syntax keyword arkKeyword import quote del
 " Comments
 syntax match arkComment "\v#.*$" " Matching comments with a regex
 
+" Operators
+syntax match arkOperator "\v\*"
+syntax match arkOperator "\v/"
+syntax match arkOperator "\v\+"
+syntax match arkOperator "\v-"
+syntax match arkOperator "\v\?"
+syntax match arkOperator "\v\*\="
+syntax match arkOperator "\v/\="
+syntax match arkOperator "\v\+\="
+syntax match arkOperator "\v-\="
+
 " Highlighting
 highlight link arkKeyword Keyword
 highlight link arkFunction Function
 highlight link arkComment Comment
+highlight link arkOperator Operator
 
 let b:current_syntax = "ark"
