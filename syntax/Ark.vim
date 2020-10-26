@@ -22,6 +22,9 @@ syntax keyword arkKeyword import quote del
 	syntax keyword arkFunction isinf_ 
 	syntax keyword arkFunction cos_ sin_ tan_ acos_ asin_ atan_
 
+	" String
+	syntax keyword arkFunction format findSubStr removeAtStr
+
 " Highlighting
 highlight link arkKeyword Keyword
 highlight link arkFunction Function
