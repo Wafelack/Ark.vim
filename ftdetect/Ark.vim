@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.ark setfiletype ark
+au BufNewFile,BufRead *.ark setfiletype Ark

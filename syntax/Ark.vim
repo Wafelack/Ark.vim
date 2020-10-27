@@ -71,4 +71,4 @@ highlight link arkOperator Operator
 highlight link arkString String
 highlight link arkConstant Constant
 
-let b:current_syntax = "ark"
+let b:current_syntax = "Ark"
