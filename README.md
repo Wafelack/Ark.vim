@@ -12,6 +12,10 @@ Vim syntax highlighting and code running plugin for [ArkScript](https://github.c
   
 </div>
 
+<div align="center">
+<img src="assets/arkvim.png" alt="arkvim" />
+</div>
+
 ## Install
 
 ### *nix
