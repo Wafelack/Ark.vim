@@ -1,8 +1,10 @@
-﻿# ArkVim
 
-Vim syntax highlighting and code running plugin for [ArkScript](https://github.com/ArkScript-lang/Ark)
 
 <div align="center">
+  
+  ﻿<h1> ArkVim </h1>
+  
+  Vim syntax highlighting and code running plugin for [ArkScript](https://github.com/ArkScript-lang/Ark)
   
 ![GitHub repo size](https://img.shields.io/github/repo-size/wafelack/ark.vim?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/wafelack/ark.vim?style=flat-square)
@@ -13,7 +15,7 @@ Vim syntax highlighting and code running plugin for [ArkScript](https://github.c
 </div>
 
 <div align="center">
-<img src="assets/arkvim.png" alt="arkvim" />
+<img src="assets/arkvim.png" height="400" alt="arkvim" />
 </div>
 
 ## Install
