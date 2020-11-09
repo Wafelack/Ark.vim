@@ -65,3 +65,4 @@ comments and keywords
 Section 7: Credits										   *ArkCredits*
 
 Author : Wafelack <wafelack@protonmail.com>
+Contributors : ["Jake Grossman <jake.r.grossman@gmail.com>"]
