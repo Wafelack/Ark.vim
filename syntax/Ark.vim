@@ -50,7 +50,7 @@ syntax match arkOperator "\v\>\=" " >=
 syntax match arkOperator "\v\^" " ^
 syntax match arkOperator "\v!\=" " !=
 syntax keyword arkOperator len empty? firstOf tailOf headOf
-syntax keyword arkOpeator nil? assert toNumber toString and or mod type hasField not
+syntax keyword arkOperator nil? assert toNumber toString and or mod type hasField not
 
 " Numbers
 syntax match arkNumber "[0-9]" " From 0 to 9
