@@ -23,7 +23,12 @@
 ### *nix
 
 - With Pathogen : Run `git clone https://github.com/Wafelack/Ark.vim.git ~/.vim/bundle/Ark`
+- With Vlugger  : Run `vlugger install wafelack/ark.vim`
 
 ### Windows
 
 - With Pathogen : Run `git clone https://github.com/Wafelack/Ark.vim.git C:/Users/USERNAME/vimfiles/bundle/Ark` 
+
+## Contributors
+
+https://github.com/wafelack/ark.vim/graphs/contributors
