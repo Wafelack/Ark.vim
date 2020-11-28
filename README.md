@@ -31,4 +31,4 @@
 
 ## Contributors
 
-https://github.com/wafelack/ark.vim/graphs/contributors
+![contributors](https://github.com/wafelack/ark.vim/graphs/contributors)
