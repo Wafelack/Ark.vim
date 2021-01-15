@@ -14,9 +14,6 @@
   
 </div>
 
-<div align="center">
-<img src="assets/arkvim.png" height="400" alt="arkvim" />
-</div>
 
 ## Install
 
